@@ -37,7 +37,10 @@ const styles = StyleSheet.create({
     marginTop: 5,
     borderRadius: 10,
   },
-  buttonContainer:{},
+  buttonContainer:{
+      width: '60%',
+    marginTop: 40,
+  },
   button:{},
   buttonText:{},
   outlineButton:{},
