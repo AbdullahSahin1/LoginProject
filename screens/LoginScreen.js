@@ -56,5 +56,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     marginTop: 5,
   },
-  outlineButtonText:{}
+  outlineButtonText:{
+    color: '#0782F9',
+    fontSize: 16,
+    fontWeight: 600,
+  }
 });
