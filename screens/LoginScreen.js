@@ -30,44 +30,50 @@ export default function LoginScreen() {
 }
 
 const styles = StyleSheet.create({
-  container:{
+  container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: "#eee",
-  },
-  inputContainer:{
-    width: '80%',
-  },
-  input:{
-    backgroundColor: 'white',
-    paddingHorizontal: 15,
-    paddingVertical: 20,
-    marginTop: 5,
-    borderRadius: 10,
-  },
-  buttonContainer:{
-    width: '60%',
-    marginTop: 40,
-  },
-  button:{
-    backgroundColor: '#0782F9',
-    padding: 15,
     alignItems: 'center',
-    borderRadius: 10
+    padding: 20,
+    backgroundColor: '#f8f9fa',
   },
-  buttonText:{
-    color: '#fff',
+  inputContainer: {
+    width: '100%',
+    marginBottom: 20,
+  },
+  input: {
+    backgroundColor: '#ffffff',
+    padding: 15,
+    borderRadius: 8,
+    marginBottom: 10,
+    borderWidth: 1,
+    borderColor: '#ced4da',
+  },
+  buttonContainer: {
+    width: '100%',
+    alignItems: 'center',
+  },
+  button: {
+    backgroundColor: '#007bff',
+    padding: 15,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginBottom: 10,
+    width: '100%',
+  },
+  buttonText: {
+    color: '#ffffff',
+    fontWeight: 'bold',
     fontSize: 16,
-    fontWeight: 600,
   },
-  outlineButton:{
-    backgroundColor: 'white',
-    marginTop: 5,
+  outlineButton: {
+    backgroundColor: '#ffffff',
+    borderWidth: 1,
+    borderColor: '#007bff',
   },
-  outlineButtonText:{
-    color: '#0782F9',
+  outlineButtonText: {
+    color: '#007bff',
+    fontWeight: 'bold',
     fontSize: 16,
-    fontWeight: 600,
-  }
+  },
 });
