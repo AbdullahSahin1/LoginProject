@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View,KeyboardAvoidingView, TextInput, TouchableOpacity } from 'react-native';
 import React from 'react';
-
+import React, { useState } from "react";
 export default function LoginScreen() {
    const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
