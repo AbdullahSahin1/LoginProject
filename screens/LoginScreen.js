@@ -27,7 +27,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: "#eee",
   },
-  inputContainer:{},
+  inputContainer:{
+    width: '80%',
+  },
   input:{},
   buttonContainer:{},
   button:{},
