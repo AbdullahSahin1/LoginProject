@@ -2,6 +2,8 @@ import { StyleSheet, Text, View,KeyboardAvoidingView, TextInput, TouchableOpacit
 import React from 'react';
 
 export default function LoginScreen() {
+   const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   return (
     <KeyboardAvoidingView style={styles.container} behavior='padding'>
       <View style={styles.inputContainer}>
