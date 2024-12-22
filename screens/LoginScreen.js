@@ -47,7 +47,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10
   },
-  buttonText:{},
+  buttonText:{
+     color: '#fff',
+    fontSize: 16,
+    fontWeight: 600,
+  },
   outlineButton:{},
   outlineButtonText:{}
 });
