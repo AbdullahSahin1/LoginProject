@@ -30,7 +30,13 @@ const styles = StyleSheet.create({
   inputContainer:{
     width: '80%',
   },
-  input:{},
+  input:{
+    backgroundColor: 'white',
+    paddingHorizontal: 15,
+    paddingVertical: 20,
+    marginTop: 5,
+    borderRadius: 10,
+  },
   buttonContainer:{},
   button:{},
   buttonText:{},
