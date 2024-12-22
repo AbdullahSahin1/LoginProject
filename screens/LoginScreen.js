@@ -41,7 +41,12 @@ const styles = StyleSheet.create({
       width: '60%',
     marginTop: 40,
   },
-  button:{},
+  button:{
+     backgroundColor: '#0782F9',
+    padding: 15,
+    alignItems: 'center',
+    borderRadius: 10
+  },
   buttonText:{},
   outlineButton:{},
   outlineButtonText:{}
