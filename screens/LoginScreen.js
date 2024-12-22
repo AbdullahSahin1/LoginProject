@@ -38,20 +38,23 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   buttonContainer:{
-      width: '60%',
+    width: '60%',
     marginTop: 40,
   },
   button:{
-     backgroundColor: '#0782F9',
+    backgroundColor: '#0782F9',
     padding: 15,
     alignItems: 'center',
     borderRadius: 10
   },
   buttonText:{
-     color: '#fff',
+    color: '#fff',
     fontSize: 16,
     fontWeight: 600,
   },
-  outlineButton:{},
+  outlineButton:{
+    backgroundColor: 'white',
+    marginTop: 5,
+  },
   outlineButtonText:{}
 });
