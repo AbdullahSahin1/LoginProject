@@ -11,7 +11,11 @@ export default function LoginScreen() {
          value={email}
          onChangeText={text=> setEmail(text)}>
          </TextInput>
-        <TextInput style={styles.input} placeholder='Şifreyi Giriniz'></TextInput>
+        <TextInput style={styles.input} placeholder='Şifreyi Giriniz'
+            secureTextEntry
+          value={password}
+          onChangeText={text=> setPassword(text)}
+            ></TextInput>
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={styles.button}>
              <Text style={styles.buttonText}>Giriş Yap</Text>
