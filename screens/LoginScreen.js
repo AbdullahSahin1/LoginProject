@@ -7,7 +7,10 @@ export default function LoginScreen() {
   return (
     <KeyboardAvoidingView style={styles.container} behavior='padding'>
       <View style={styles.inputContainer}>
-        <TextInput style={styles.input} placeholder='E mail adresinizi Giriniz'></TextInput>
+        <TextInput style={styles.input} placeholder='E mail adresinizi Giriniz'  
+         value={email}
+         onChangeText={text=> setEmail(text)}>
+         </TextInput>
         <TextInput style={styles.input} placeholder='Şifreyi Giriniz'></TextInput>
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={styles.button}>
